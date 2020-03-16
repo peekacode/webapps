@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>My HTML and CSS page</title>
+		<link rel= "stylesheet" type="text/css" href="resources/css/style.css">
+	</head>
+	
+	<body>
+		<div class="head">
+			<h1 id="h1">Headings</h1>
+			<h1> h1 Hello World! </h1>
+			<h2> h2 Hello World! </h2>
+			<h3> h3 Hello World! </h3>
+			<h4> h4 Hello World! </h4>
+			<h5> h5 Hello World! </h5>
+			<h6> h6 Hello World! </h6>
+		</div>
+		
+		<div class="para">
+			<h1> Paragraphs</h1>
+			<p> This is my first paragraph</p>
+			<p> This is my second paragraph</p>
+			<p> This is some text.This is some text.<br>This is some text.This is some text.<br>This is some text.</p>
+			
+			<h1> Paragraphs 2</h1>
+			<p> This is my first paragraph 2</p>
+			<p> This is my second paragraph 2</p>
+			<p> This is some text.This is some text.<br>This is some text.This is some text.<br>This is some text.</p>
+		</div>
+		
+		
+		<div class="links">
+			<h1> Links</h1>
+			<p> This <a href= "http://www.facebook.com/" title="facebook" >link</a> will take you to facebook</p>		
+			<p> This <a href="para.html"title="testing links" >link</a> will take you to paragraphs page</p>
+			<p> This <a href=#h1 title="regarding headings" >link</a> will take you to Regarding Headings of this page</p>
+		</div>
+		
+		<div class="images">
+			<h1> Images</h1>
+			<p>From Images folder</p>
+			<img src="resources/img/World_Time_Zones_Map.png" alt="World Time Zone" height="200px" width="800px" />
+			<p>From External Server</p>
+			<img src="http://bit.ly/2a5F1qA" alt="Nature" height="200px" width="800px" />
+		</div>
+		
+		<h1 class="iframes"> I-Frames</h1>
+		<p>From internal folder</p>
+		<iframe src="para.html" height="200px" width="800px"> </iframe>
+		<p>From External Server</p>
+		<iframe name="myiframe" height="200px" width="800px"> </iframe>
+		<p> <a href= "http://www.wikipedia.org/" title="wikipedia" target="myiframe" >link</a></p>
+		<p>From External Server Embed</p>
+		<iframe width="560" height="315" src="https://www.youtube.com/embed/APs3fpyw7_c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		
+		<h1 class="uol"> Unordered Lists with sublist</h1>
+		<ul>
+			 <li>Dallas</li>
+			 <li>Austin</li>
+			 <li>Houston</li>
+		 		<ul>
+		 			<li>Cloudy</li>
+		 			<li>Rainy</li>
+		 			<li>Sunny</li>
+		 		</ul>
+		 	 <li>San Antonio</li>
+		</ul>
+		
+		<h1 class="ol"> Ordered Lists with sublists</h1>
+		<ol type='1'>
+		 	<li>Dallas</li>
+		 		<ol type='I'>
+		 			<li>Cloudy</li>
+		 			<li>Rainy</li>
+		 			<li>Sunny</li>
+		 		</ol>
+		 	<li>Austin</li>
+		 		<ol type='a'>
+		 			<li>Cloudy</li>
+		 			<li>Rainy</li>
+		 			<li>Sunny</li>
+		 		</ol>
+		 	<li>Houston</li>
+		 		<ol type='A'>
+		 			<li>Cloudy</li>
+		 			<li>Rainy</li>
+		 			<li>Sunny</li>
+		 		</ol>
+	 		<li>San Antonio</li>
+	 			<ol type='i'>
+	 				<li>Cloudy</li>
+	 				<li>Rainy</li>
+	 				<li>Sunny</li>
+	 			</ol>
+		</ol>
+		
+		<h1 class="dl">Description Lists</h1>
+		<dt>HTML</dt>
+			<dd>Stands for Hyper Text Markup Language</dd>
+		<dt>CSS</dt>
+			<dd>Stands for Cascading Style Sheets</dd>	
+			
+		<h1 class="tb">Tables</h1>
+		<table>
+			<tr><th>Name</th><th>Employee Number</th><th>Date</th></tr>
+			<tr><td>Pavan</td><td>2362736</td><td>12-Jan-87</td></tr>
+			<tr><td>Ritam</td><td>2838237</td><td>19-Oct-19</td></tr>
+			<tr><td>Ratan</td><td>2589238</td><td>15-Jun-91</td></tr>
+		</table>	
+		
+		<h1 class="fm">Forms</h1>
+		<form>
+			<input type="email" name="email"></input>
+			<input type="password" name="password"></input>
+			<input type="submit"></input>
+		</form>
+			
+	</body>
+</html>

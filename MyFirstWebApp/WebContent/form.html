@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Form</title>
+	</head>
+	
+	<body>
+		<h1>Forms</h1>
+		<form method="get">
+		    <label for="address">Address:</label>
+			<input type="text" name="address" placeholder="Address" size= 30px maxlength="100"></input>
+			<br>
+			<br>
+			<label for="postcode">Postcode:</label>
+			<input type="text" name="postcode" placeholder="Postcode" size= 30px maxlength="10"></input>
+			<br>
+			<br>
+			<label for="city">City:</label>
+			<input type="text" name="city" placeholder="City" size= 30px maxlength="20"></input>
+			<br>
+			<br>
+			<label for="shipping">Choose your Shipping:</label>
+			<br><br>
+			<select name="shipping" id="shipping">
+				<option>One Day Shipping</option>
+				<option>Two day Shipping</option>
+				<option>Super Saver Shipping</option>
+			</select>	
+			<br><br>
+			<label for="payment">Choose your Payment:</label>
+			<br><br>
+			<label>Paypal <input type="radio" name="payment" value="paypal"></input></label> &nbsp; 
+			<label>Credit card<input type="radio" name="payment" value="credit card"></input></label>&nbsp;
+			<label>Debit Card <input type="radio" name="payment" value="debit card"></input></label>&nbsp;
+			<label>Gift Card <input type="radio" name="payment" value="gift card"></input></label><br>
+			<br><br>
+			<label for="comments">Comments:</label><br>
+			<textarea rows="4" cols="40" id="comments" name="comments"></textarea>
+			<br><br>
+			<label>Signup for shipping updates <input type="checkbox" name="emailupdates"></label><br>
+			<label>Save my payment details <input type="checkbox" name="savepayment"></label>
+			<br><br>
+			<input type="submit"></input>
+ 		</form>
+			
+	</body>
+</html>
